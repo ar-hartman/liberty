@@ -7,7 +7,7 @@ export class Headline extends Component {
     
     render() {
         return (
-            <h1 className="post-blog-headline">
+            <h1 className="tile-blog-headline">
                 {this.props.headline}
             </h1>
         )

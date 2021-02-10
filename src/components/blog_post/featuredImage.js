@@ -7,7 +7,7 @@ export class FeaturedImage extends Component {
     
     render() {
         return (
-            <img className="featured-image" 
+            <img className="post-featured-image" 
                 src={this.props.src}
                 alt={this.props.alt}
             />

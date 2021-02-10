@@ -8,7 +8,7 @@ export class TextBody extends Component {
 
     render() {
         return (
-            <p className="text-body">
+            <p className="post-text-body">
                 {this.props.textBody}
             </p>
         )

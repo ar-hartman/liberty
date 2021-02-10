@@ -1,15 +1,15 @@
 import React, {Component} from "react";
 
-export class Headline extends Component {
+export class Hook extends Component {
     constructor(props){
         super(props);
     }
     
     render() {
         return (
-            <h1 className="post-blog-headline">
-                {this.props.headline}
-            </h1>
+            <h3 className="tileblog-hook">
+                {this.props.hook}
+            </h3>
         )
     }
 }

@@ -7,7 +7,7 @@ export class Hook extends Component {
     
     render() {
         return (
-            <h3 className="blog-hook">
+            <h3 className="post-blog-hook">
                 {this.props.hook}
             </h3>
         )

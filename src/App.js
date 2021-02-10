@@ -1,5 +1,6 @@
 import './App.css';
 import {BlogPost} from "./container/blogPost";
+import {PostTile} from "./container/postTile";
 
 function App() {
   return (
@@ -8,7 +9,10 @@ function App() {
       <div>
         <BlogPost/>
       </div>
-      
+      <div></div>
+      <div>
+        <PostTile/>
+      </div>
     </div>
   );
 }
