@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px auto;
+  background-color: #2196F3;
+  max-width: 60%;
+  max-height: 100px;
+  margin: auto;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.item1 {
+  grid-area: 1 / 1 / span 2 ;
+  max-height: 100%;
+}
+
+.item2{
+  max-height: 100%;
+}
+
+.item3{
+  max-height: 100%;
+}
+
+.tile-featured-image {
+  max-height: 98px;
+}

@@ -7,7 +7,7 @@ export class Hook extends Component {
     
     render() {
         return (
-            <h3 className="tileblog-hook">
+            <h3 className="tileblog-hook" style={{fontSize: "small", maxHeight: '50%'}}>
                 {this.props.hook}
             </h3>
         )

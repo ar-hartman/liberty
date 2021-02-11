@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import "../../index.css";
+
 
 export class FeaturedImage extends Component {
     constructor(props){
@@ -10,7 +12,7 @@ export class FeaturedImage extends Component {
             <img className="tile-featured-image" 
                 src={this.props.src}
                 alt={this.props.alt}
-                style={{display: "block"}}
+
             />
         )
     }

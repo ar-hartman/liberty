@@ -7,7 +7,7 @@ export class Headline extends Component {
     
     render() {
         return (
-            <h1 className="tile-blog-headline">
+            <h1 className="tile-blog-headline" style={{maxHeight: '50%', fontSize: 'Medium'}}>
                 {this.props.headline}
             </h1>
         )

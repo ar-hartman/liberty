@@ -1,6 +1,7 @@
 import './App.css';
 import {BlogPost} from "./container/blogPost";
 import {PostTile} from "./container/postTile";
+import {PostTileGrid} from "./container/postTileGrid";
 
 function App() {
   return (
@@ -10,9 +11,8 @@ function App() {
         <BlogPost/>
       </div>
       <div></div>
-      <div>
-        <PostTile/>
-      </div>
+      <div/>
+        <PostTileGrid/>
     </div>
   );
 }
