@@ -1,4 +1,6 @@
 import React, {Component} from "react";
+import "../../index.css";
+
 
 export class Headline extends Component {
     constructor(props){
@@ -7,9 +9,9 @@ export class Headline extends Component {
     
     render() {
         return (
-            <h1 className="tile-blog-headline" style={{maxHeight: '50%', fontSize: 'Medium'}}>
+            <p className="tile-blog-headline">
                 {this.props.headline}
-            </h1>
+            </p>
         )
     }
 }

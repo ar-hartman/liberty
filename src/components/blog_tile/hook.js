@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import "../../index.css";
 
 export class Hook extends Component {
     constructor(props){
@@ -7,9 +8,9 @@ export class Hook extends Component {
     
     render() {
         return (
-            <h3 className="tileblog-hook" style={{fontSize: "small", maxHeight: '50%'}}>
+            <p className="tileblog-hook">
                 {this.props.hook}
-            </h3>
+            </p>
         )
     }
 }
