@@ -111,6 +111,7 @@
 .HeaderTitle{
   font-family: courier, monospace;
   font-size: 3.0em;
+  margin-top: 20px;
 }
 
 .tile-share{
@@ -186,4 +187,129 @@ p.tile-bolt-count{
   max-height: inherit;
   grid-template-columns: subgrid;
   grid-template-rows: subgrid;
+}
+
+.post-author-image{
+  border-radius: 50%;
+  max-height: 60px;
+  border: 1px solid #ddd;
+}
+
+
+.blog-post-grid-container{
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+  grid-template-rows: auto auto auto;
+  background-color: #fafafa;
+  max-width: 60%; /* 80% */
+  min-width: 60%; /* 80% */
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2px;
+  box-shadow: 0 0 7.5px black;
+}
+
+
+.blog-header-grid-container{
+  display: grid;
+  grid-auto-rows: 20% 30% 30% 20%;
+  grid-template-columns: 20% auto 20%;
+  height: 100px;
+}
+
+.blog-header-date{
+  display: grid;
+  grid-column: 1;
+  grid-row: 2/4;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  border-right: 2px solid lightgray;
+}
+
+.blog-header-headline{
+  display: grid;
+  grid-column: 2;
+  grid-row: 2/3;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  font-family: courier, monospace;
+  font-size: 1.025em; /* 14px/16=0.875em */
+  text-overflow: ellipsis;
+  margin-left: 10px;
+}
+.blog-header-author-title{
+  display: grid;
+  grid-column: 2;
+  grid-row: 3/4;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  font-family: courier, monospace;
+  font-size: 0.875em; /* 14px/16=0.875em */
+  text-overflow: ellipsis;
+  margin-left: 10px;
+}
+.blog-header-author-image{
+  display: grid;
+  grid-column: 3;
+  grid-row: 2/4;
+  max-height: inherit;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+
+.blog-header-date-day{
+  font-family: courier, monospace;
+  font-size: 1.025em; /* 14px/16=0.875em */
+  text-overflow: ellipsis;
+}
+
+.blog-header-date-month-year{
+  font-family: courier, monospace;
+  font-size: 1.00em; /* 14px/16=0.875em */
+  text-overflow: ellipsis;
+}
+
+.blog-post-header{
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 2/3;
+  max-height: inherit;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+
+.blog-post-image{
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  max-height: inherit;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+
+.post-featured-image{
+  width: 100%;
+}
+
+.blog-post-text{
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 3;
+  max-height: inherit;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+  text-align: left;;
+}
+.blog-text{
+  margin-bottom: 20px;
+  font-family: courier, monospace;
+  font-size: 0.925em; /* 14px/16=0.875em */
+  text-overflow: ellipsis;
 }
