@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {BrowserRouter as Router, NavLink, Route, Switch} from "react-router-dom";
 import "../index.css";
 
 export class Header extends Component {
@@ -7,18 +8,22 @@ export class Header extends Component {
     }
 
     render() {
-        return (
+        return <Router>
             <React.Fragment>
-                <div className="HeaderTitle">
-                    <p>Some People Are Weird</p>
-                </div>
+                <NavLink className="header-link" to="/">
+                    <div className="HeaderTitle">
+                        <p>Some People Are Weird</p>
+                    </div>
+                </NavLink>
+                {/*
                 <div className="HeaderLogo">
                     <img></img>
                 </div>
                 <div className="HeaderDivider">
 
                 </div>
+                */}
             </React.Fragment>
-        )
+        </Router>
     }
 }
