@@ -10,6 +10,7 @@ import {BrowserRouter as Router, NavLink, Route} from "react-router-dom";
 export class PostTileGrid extends Component {
     constructor(props){
         super(props);
+
     }
 
     render() {

@@ -12,8 +12,8 @@ export class PageBody extends Component{
         return <Router basename="/" forceRefresh={true}>
             <div className="container-fluid">
                 <Switch>
-                    <Route exact path="/posts" component={BlogPost}/>
-                    <Route exact path="/" component={() => <BlogList/>}/>
+                    <Route exact path="/" component={BlogList}/>    
+                    <Route path="/posts" component={BlogPost}/>
                 </Switch>
             </div>
         </Router>

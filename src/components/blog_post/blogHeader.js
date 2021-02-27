@@ -20,7 +20,7 @@ export class BlogHeader extends Component {
                         <Headline headline="Blog Post with Right Sidebar"/>
                     </div>
                     <div className="blog-header-author-title">
-                        <AuthorTitle author="Cock Sucker"/>
+                        <AuthorTitle author="Adam Scott"/>
                     </div>
                     <div className="blog-header-author-image">
                         <AuthorImage/>
